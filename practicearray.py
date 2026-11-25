@@ -1,15 +1,19 @@
 from array import *
 
-val = array('i',[1,2,3,4,5,6,7,8,9])
+val = array('i',[1,2,3,4,5,6,7,8,9])   
+
+abc = val.index(9) 
+# finding the perticular element to the array by using index function
+print(abc)
 
 # clicing method (hamm clicing method se array ko reverse bhi kar sakte hai) by using indexing [start:end:-1]
-a= val[3:4]
-a= val[:-3]
+# a= val[3:4]
+# a= val[:-3]
 
-a= val[::-1]
+# a= val[::-1]
 
-for i in range(0,len(a)):
-    print(a[i], end=" ")
+# for i in range(0,len(a)):
+#     print(a[i], end=" ")
 
 # print(val.typecode)
 
